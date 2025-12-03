@@ -36,13 +36,13 @@
 ```
 
 ###  1. Excel — Initial Analysis
-#### * What I Did in Excel
+### What I Did in Excel:
 
 #### * Explored raw dataset
 
 #### * Checked missing values and duplicates
 
-#### * Created Pivot Tables for:
+### Created Pivot Tables for:
 
 #### * Loan Grade vs Loan Status
 
@@ -50,7 +50,7 @@
 
 #### * Default % by Employment Length
 
-#### * Built a simple dashboard with:
+###  Built a simple dashboard with:
 
 #### * Slicers
 
@@ -62,7 +62,7 @@
 
 📌 Why Excel?
 
-#### * Excel gives a quick, high-level view of the data, helps identify issues early, and speeds up validation before Python cleaning.
+#### Excel gives a quick, high-level view of the data, helps identify issues early, and speeds up validation before Python cleaning.
 
 🐍 2. Python — Cleaning & EDA
 ✔ Steps Covered in Python Notebook
