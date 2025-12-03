@@ -19,14 +19,14 @@
 │── README.md
 │── data/
 │   ├── raw/
-│ 
 │── notebooks/
 │   └── Loan_Analysis.ipynb
 │── sql/
-│   ├── 01_schema.sql
-│   ├── 02_cleaning.sql
-│   ├── 03_kpis.sql
-│   └── 04_segmentation.sql
+├── 01_schema_and_load.sql     
+├── 02_data_quality_and_flags.sql
+├── 03_portfolio_kpis.sql      
+├── 04_segmentation_defaults.sql
+└── 05_advanced_trends.sql      
 │── dashboards/
 │   ├── Loan_Dashboard_Excel.xlsx
 │   └── Loan_Dashboard_PowerBI.pbix
