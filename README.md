@@ -34,3 +34,135 @@
 │   └── dashboard_preview.png
 
 ```
+
+###  1. Excel — Initial Analysis
+#### * What I Did in Excel
+
+#### * Explored raw dataset
+
+#### * Checked missing values and duplicates
+
+#### * Created Pivot Tables for:
+
+#### * Loan Grade vs Loan Status
+
+#### * Loan Purpose distribution
+
+#### * Default % by Employment Length
+
+#### * Built a simple dashboard with:
+
+#### * Slicers
+
+#### * Pivot Charts
+
+#### * Conditional Formatting
+
+#### * Exported a cleaned Excel file for Python
+
+📌 Why Excel?
+
+#### * Excel gives a quick, high-level view of the data, helps identify issues early, and speeds up validation before Python cleaning.
+
+🐍 2. Python — Cleaning & EDA
+✔ Steps Covered in Python Notebook
+
+Load raw dataset
+
+Standardize column names
+
+Handle missing values (emp_title, dates, etc.)
+
+Fix datatypes (dates, numeric fields)
+
+Detect outliers with boxplots
+
+Perform EDA:
+
+Distributions
+
+Boxplots
+
+Trends
+
+Python output was stored in /data/processed/ for SQL loading.
+
+🔍 Key EDA Insights
+
+Interest rate is right-skewed with many outliers > 20%
+
+Higher DTI → higher default probability
+
+Grades E, F, G have higher charge-off rates
+
+60-month loans carry more risk than 36-month
+
+🗄 3. SQL — Portfolio KPIs & Segmentation
+✔ SQL Work Included
+
+Create database and tables
+
+Import cleaned dataset
+
+Validate row counts
+
+Fix datatypes (DATE, INT)
+
+Calculate key KPIs:
+
+Good vs Bad Loans
+
+Default rate per Credit Grade
+
+Interest Rate buckets
+
+DTI buckets
+
+Optional cohort analysis
+
+Segmentation queries:
+
+Grade-wise
+
+Purpose-wise
+
+State-wise
+
+📌 Why SQL?
+
+SQL ensures structured, clean, validated data for BI tools and supports fast aggregations.
+
+📊 4. Power BI — Final Dashboard
+✔ What I Built in Power BI
+
+Imported SQL tables
+
+Created star-model style relationships
+
+Built DAX measures:
+
+Total Loans
+
+Good Loan %
+
+Default Rate
+
+Average Interest Rate
+
+DTI Bucket Metrics
+
+Added visuals:
+
+Grade performance
+
+Purpose breakdown
+
+State-wise defaults
+
+KPI scorecards
+
+Added navigation buttons & tooltip pages
+
+
+
+
