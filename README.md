@@ -36,7 +36,7 @@
 
 ```
 
-###  1. Excel — Initial Analysis
+##  1. Excel — Initial Analysis
 ### What I Did in Excel:
 
 #### * Explored raw dataset
@@ -65,104 +65,104 @@
 
 #### Excel gives a quick, high-level view of the data, helps identify issues early, and speeds up validation before Python cleaning.
 ---
-🐍 2. Python — Cleaning & EDA
-✔ Steps Covered in Python Notebook
+## 2. Python — Cleaning & EDA
+### Steps Covered in Python Notebook
 
-Load raw dataset
+#### * Load raw dataset
 
-Standardize column names
+#### * Standardize column names
 
-Handle missing values (emp_title, dates, etc.)
+#### * Handle missing values (emp_title, dates, etc.)
 
-Fix datatypes (dates, numeric fields)
+#### * Fix datatypes (dates, numeric fields)
 
-Detect outliers with boxplots
+#### * Detect outliers with boxplots
 
-Perform EDA:
+### Perform EDA:
 
-Distributions
+#### * Distributions
 
-Boxplots
+#### * Boxplots
 
-Trends
+#### * Trends
 
-Python output was stored in /data/processed/ for SQL loading.
+### Python output was stored in /data/processed/ for SQL loading.
 
-🔍 Key EDA Insights
+### 🔍 Key EDA Insights
 
-Interest rate is right-skewed with many outliers > 20%
+#### * Interest rate is right-skewed with many outliers > 20%
 
-Higher DTI → higher default probability
+#### * Higher DTI → higher default probability
 
-Grades E, F, G have higher charge-off rates
+#### * Grades E, F, G have higher charge-off rates
 
-60-month loans carry more risk than 36-month
+#### * 60-month loans carry more risk than 36-month
+---
 
-🗄 3. SQL — Portfolio KPIs & Segmentation
-✔ SQL Work Included
+## 3. SQL — Portfolio KPIs & Segmentation
+### SQL Work Included
 
-Create database and tables
+#### * Create database and tables
 
-Import cleaned dataset
+#### * Import cleaned dataset
 
-Validate row counts
+#### * Validate row counts
 
-Fix datatypes (DATE, INT)
+#### * Fix datatypes (DATE, INT)
 
-Calculate key KPIs:
+### Calculate key KPIs:
 
-Good vs Bad Loans
+#### * Good vs Bad Loans
 
-Default rate per Credit Grade
+#### * Default rate per Credit Grade
 
-Interest Rate buckets
+#### * Interest Rate buckets
 
-DTI buckets
+#### * DTI buckets
 
 Optional cohort analysis
 
-Segmentation queries:
+### Segmentation queries:
 
-Grade-wise
+#### * Grade-wise
 
-Purpose-wise
+#### * Purpose-wise
 
-State-wise
+#### * State-wise
 
-📌 Why SQL?
+### Why SQL?
 
-SQL ensures structured, clean, validated data for BI tools and supports fast aggregations.
+### SQL ensures structured, clean, validated data for BI tools and supports fast aggregations.
 
-📊 4. Power BI — Final Dashboard
-✔ What I Built in Power BI
+---
+## 4. Power BI — Final Dashboard
+### What I Built in Power BI
 
-Imported SQL tables
+#### * Imported SQL tables
 
-Created star-model style relationships
+### Built DAX measures
 
-Built DAX measures:
+#### * Total Loans
 
-Total Loans
+#### * Good Loan %
 
-Good Loan %
+#### * Default Rate
 
-Default Rate
+#### * Average Interest Rate
 
-Average Interest Rate
+#### * DTI Bucket Metrics
 
-DTI Bucket Metrics
+### Added visuals:
 
-Added visuals:
+#### * Grade performance
 
-Grade performance
+#### * Purpose breakdown
 
-Purpose breakdown
+#### * State-wise defaults
 
-State-wise defaults
+#### * KPI scorecards
 
-KPI scorecards
-
-Added navigation buttons & tooltip pages
+#### Added navigation buttons & tooltip pages
 
 
 
