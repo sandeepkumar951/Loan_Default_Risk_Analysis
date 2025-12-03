@@ -19,7 +19,7 @@
 │── README.md
 │── data/
 │   ├── raw/
-│   └── processed/
+│ 
 │── notebooks/
 │   └── Loan_Analysis.ipynb
 │── sql/
