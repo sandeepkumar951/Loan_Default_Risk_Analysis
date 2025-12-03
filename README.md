@@ -1,4 +1,4 @@
-📊 Loan Portfolio Analysis — End-to-End Data Analytics Project
+# 📊 Loan Portfolio Analysis — End-to-End Data Analytics Project
 
 A complete Excel → Python → SQL → Power BI data analytics pipeline project analyzing loan performance, portfolio health, and risk segments through cleaning, EDA, data modeling, and dashboarding.
 
