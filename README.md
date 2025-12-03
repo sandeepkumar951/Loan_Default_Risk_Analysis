@@ -14,3 +14,23 @@
 #### * SQL: Tables, cleaning, KPIs, segmentation, cohorts
 
 #### * Power BI: Visual dashboard with DAX measures and interactive insights
+```
+📁 Project Structure
+│── README.md
+│── data/
+│   ├── raw/
+│   └── processed/
+│── notebooks/
+│   └── Loan_Analysis.ipynb
+│── sql/
+│   ├── 01_schema.sql
+│   ├── 02_cleaning.sql
+│   ├── 03_kpis.sql
+│   └── 04_segmentation.sql
+│── dashboards/
+│   ├── Loan_Dashboard_Excel.xlsx
+│   └── Loan_Dashboard_PowerBI.pbix
+│── images/
+│   └── dashboard_preview.png
+
+```
