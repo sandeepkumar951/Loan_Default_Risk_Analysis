@@ -162,7 +162,7 @@ Optional cohort analysis
 
 #### * KPI scorecards
 
-#### Added navigation buttons & tooltip pages
+#### Added navigation buttons
 
 
 
