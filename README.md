@@ -1,20 +1,43 @@
 # 📊 Loan Portfolio Analysis — End-to-End Data Analytics Project
 
-### A complete Excel → Python → SQL → Power BI data analytics pipeline project analyzing loan performance, portfolio health, and risk segments through cleaning, EDA, data modeling, and dashboarding.
+**End-to-End Analytics Project (Excel • Python • SQL • Power BI)**
 
-#### This project demonstrates full-stack analytics capability—from raw messy data to executive-level insights.
+## 📌 Project Overview
+Loan defaults pose a significant financial risk to lending institutions. Poor risk assessment can lead to **credit losses**, while overly conservative policies can reduce **loan approvals and revenue**.
+
+This project delivers an **end-to-end financial risk analytics solution** to:
+
+- Analyze loan performance and default behavior  
+- Identify high-risk borrower segments  
+- Understand credit, demographic, and loan-structure drivers of default  
+- Translate insights into actionable lending and risk management recommendations  
+
+The workflow mirrors a real-world analytics pipeline using **Excel for staging**, **Python for EDA**, **SQL for business metrics**, and **Power BI/Excel for dashboards**.
+
 ---
 
-#### 🌐 Project Workflow 
-``` Excel  →  Python  →  SQL  →  Power BI ```
+## 🎯 Business Objective
+- Reduce loan default rates  
+- Improve borrower risk segmentation  
+- Support data-driven credit approval decisions  
+- Identify portfolios with high loss exposure  
+- Strengthen monitoring of risky loan cohorts  
 
-#### * Excel: Initial understanding, summary metrics, pivot tables, dashboard
+---
 
-#### * Python: Cleaning, feature engineering, outlier checks, EDA
+## 📂 Dataset Description
+**Source:** Public financial loan dataset  
+**Level:** Loan-level records  
+**Size:** ~39,000 loan applications  
 
-#### * SQL: Tables, cleaning, KPIs, segmentation, cohorts
+### Key Attributes
+- Borrower details: income, employment title, home ownership  
+- Loan details: loan amount, interest rate, term, purpose  
+- Credit metrics: DTI, grade, sub-grade  
+- Repayment outcomes: loan status, total payment, default flag  
+- Time features: issue date, issue month, issue year  
 
-#### * Power BI: Visual dashboard with DAX measures and interactive insights
+---
 ```
 📁 Project Structure
 │── README.md
